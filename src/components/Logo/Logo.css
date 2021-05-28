@@ -1,0 +1,17 @@
+:root {
+    --gradient: linear-gradient(
+      to right,
+      #845ec2,
+      #d65db1,
+      #ff6f91,
+      #ff9671,
+      #ffc75f,
+      #f9f871
+    );
+  }
+
+.Tilt{
+    background-image: var(--gradient);
+  background-size: 300%;
+  background-position: center;
+}
